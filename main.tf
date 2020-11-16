@@ -10,9 +10,7 @@ terraform {
 }
 
 provider "aws" {
-  region     = "us-west-2"
-  access_key = "DONT_PUT_KEYS_IN_YOUR.TF_FILES"
-  secret_key = "NO_REALLY_DONT"
+  region = "us-west-2"
 }
 
 provider "random" {}
